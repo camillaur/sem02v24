@@ -1,30 +1,16 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue109;}
-{\*\expandedcolortbl;;\cspthree\c0\c0\c0;\cspthree\c5\c0\c48063;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf2 Du m\'e5 legge inn relevante verdier i alle \'abstedsholdere\'bb (dette m\'e5 du gj\'f8re meget\
-n\'f8ye, siden den minste feilen vil gj\'f8re at du ikke vil kunne bygge \'abimage\'bb):\
-BRUKER \'96 ditt brukernavn i Linux i container\
-PASSWD \'96 din passord i Linux i container for kontoen med brukernavn BRUKER\
-EPOSTADRESSE-GITHUB-REGISTRERING \'96 e-post adressen du har brukt for \'e5\
-registrere deg p\'e5 Github\
-DITT-NAVN \'96 ditt fulle navn (fornavn [mellomnavn] etternavn)\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 PAT \'96 Personal Access Token for din Github-konto\
-GITHUB-BRUKERNAVN \'96 ditt brukernavn for din Github-konto\
-OS \'96 operativsystemet (linux, windows, darwin osv.)\
-ARCH \'96 maksinvarearkitektur (amd64, arm64, 386 osv.)\
-OBS! Relevant Go-distribusjoner finne p\'e5 ilene p\'e5 \cf3 https://go.dev/dl/\
-\cf2 All konfigurasjon (bortsett fra \'abunattended-updates\'bb) fra Seminar I kan n\'e5 gj\'f8res med\
-enkommando\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-
-\fs18 \cf2 $ docker build -t minubuntu-from-config:version1 .\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-
-\fs24 \cf2 OBS! . (punktum) er viktig her, siden den betegner den gjeldende mappen.\
-\
-}
+Du må legge inn relevante verdier i alle «stedsholdere» (dette må du gjøre meget
+nøye, siden den minste feilen vil gjøre at du ikke vil kunne bygge «image»):
+BRUKER – ditt brukernavn i Linux i container
+PASSWD – din passord i Linux i container for kontoen med brukernavn BRUKER
+EPOSTADRESSE-GITHUB-REGISTRERING – e-post adressen du har brukt for å
+registrere deg på Github
+DITT-NAVN – ditt fulle navn (fornavn [mellomnavn] etternavn)
+PAT – Personal Access Token for din Github-konto
+GITHUB-BRUKERNAVN – ditt brukernavn for din Github-konto
+OS – operativsystemet (linux, windows, darwin osv.)
+ARCH – maksinvarearkitektur (amd64, arm64, 386 osv.)
+OBS! Relevant Go-distribusjoner finne på ilene på https://go.dev/dl/
+All konfigurasjon (bortsett fra «unattended-updates») fra Seminar I kan nå gjøres med
+enkommando
+$ docker build -t minubuntu-from-config:version1 .
+OBS! . (punktum) er viktig her, siden den betegner den gjeldende mappen.
